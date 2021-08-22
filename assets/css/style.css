@@ -359,6 +359,7 @@ div .top-content-text-small{
 	line-height: 64px;
 	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
+	text-align: center;
 }
 
 .reviews p {
@@ -368,16 +369,17 @@ div .top-content-text-small{
 	font-style: italic;
     line-height: 30px;
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
+	text-align: center;
 }
 
 .reviews a.review-author {
 	font-family: 'signikasemibold', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	font-style: normal;
-	color: #f8b3ac;
+	color: white;
 	line-height: 18px;
-	text-transform: uppercase;
 	text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
+	text-align: center;
 }
 
 .review-active {
@@ -389,6 +391,7 @@ div .top-content-text-small{
 .review-single {
 	display: inline-block;
 	text-align:justify;
+	
 }
 
 .review-single p {
@@ -410,9 +413,10 @@ div .top-content-text-small{
     -webkit-border-radius: 15px;
     border-radius: 15px;
     cursor: pointer;
+	text-align: center;
 }
 
-.review-single-pagination.active { border: 2px solid #fff; }
+.review-single-pagination.active { border: 2px solid #fff;text-align: center; }
 
 .review-single-pagination.active span {
 	display: block;
@@ -423,6 +427,7 @@ div .top-content-text-small{
 	-moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+	text-align: center;
 }
 
 
